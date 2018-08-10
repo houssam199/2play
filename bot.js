@@ -290,8 +290,3 @@ client.on('ready', () => {
 
 
 client.login(process.env.BOT_TOKEN);
-
-
-client.on('ready', () => {
-client.user.setGame(`DANGER`,"http://twitch.tv/S-F")
-});
